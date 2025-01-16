@@ -131,34 +131,34 @@
 
     TabsC.color-acento-contenido.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Económica" :icon="require('@/assets/bullets/1.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Económica
             p Asegura la viabilidad financiera y la creación de valor para accionistas y partes interesadas, mientras promueve una gestión responsable y eficiente de los recursos.
             p <b>Ejemplo</b>. Inversión en tecnologías sostenibles para optimizar procesos productivos, reduciendo costos e incrementando la calidad.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/13.png', alt='')
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Social" :icon="require('@/assets/bullets/2.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Social
             p Fomenta el bienestar y la equidad entre empleados, comunidades y sociedad en general, promoviendo derechos humanos y responsabilidad social.
             p <b>Ejemplo</b>. Implementar programas de bienestar laboral y colaborar en proyectos educativos para mejorar la calidad de vida local.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/14.png', alt='')
 
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Ambiental" :icon="require('@/assets/bullets/3.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Ambiental
             p Mitiga el impacto ecológico de las operaciones empresariales mediante la adopción de prácticas sostenibles. 
             p <b>Ejemplo</b>. Uso de energía renovable en las operaciones y promoción del reciclaje en todas las áreas de la empresa.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/15.png', alt='', style="width: 100%;")
 
@@ -221,10 +221,10 @@
     
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/20.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 Sinergia entre dimensiones
@@ -233,7 +233,7 @@
       .col-lg-6
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-2 Impacto positivo
@@ -279,10 +279,10 @@
 
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/24.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Una compañía que fomenta la <em>equidad</em> mediante políticas de igualdad de oportunidades y diversidad mejora su entorno laboral y productividad.
@@ -290,7 +290,7 @@
       .col-lg-6
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/25.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Una empresa que respeta los <em>derechos humanos</em> en su cadena de suministro, asegurando condiciones laborales justas, demuestra su compromiso ético y social.

@@ -5,7 +5,7 @@
 
     p.mb-5 La Responsabilidad Social Empresarial  ha experimentado un avance significativo, pasando por etapas como <em>la filantropía, la legalidad, la productividad, la ciudadanía corporativa y la sostenibilidad</em>, adaptándose a los cambios en las expectativas sociales y en la manera en que las empresas interactúan con su entorno. La globalización ha sido un factor determinante en esta evolución, lo que ha incrementado las expectativas hacia las compañías para que desempeñen un papel más activo en temas sociales y ambientales. 
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
@@ -18,7 +18,7 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Etapas históricas de la Responsabilidad Social Empresarial.
 
-          .col-lg-4.order-1
+          .col-lg-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/1.png', alt='')
 
@@ -81,31 +81,31 @@
 
     TabsC.color-acento-contenido.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Sostenibilidad" :icon="require('@/assets/bullets/4.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Sostenibilidad
             p Reducción de emisiones de carbono, eficiencia en la gestión de recursos y alineación con los ODS para equilibrar crecimiento económico y cuidado ambiental.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/6.png', alt='')
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Transparencia" :icon="require('@/assets/bullets/5.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Transparencia
             p Difusión de prácticas responsables, optimización de la cadena de suministro y cumplimiento de normativas como la Directiva de Diligencia Debida Corporativa en Europa.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/7.png', alt='')
 
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Innovación social" :icon="require('@/assets/bullets/6.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Innovación social
             p Desarrollo de soluciones para problemas sociales y ambientales, como programas de inclusión laboral y metodologías de innovación abierta.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/8.png', alt='', style="width: 100%;")
 

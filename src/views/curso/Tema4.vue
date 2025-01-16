@@ -60,7 +60,7 @@
     p.mb-5 Los puntos clave de la relación:
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -126,7 +126,7 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Grupos de interés en la responsabilidad social empresarial.
 
-          .col-lg-4.order-1
+          .col-lg-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema4/8.png', alt='')
 

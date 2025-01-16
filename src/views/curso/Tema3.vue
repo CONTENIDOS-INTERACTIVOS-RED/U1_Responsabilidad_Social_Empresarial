@@ -11,7 +11,7 @@
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mb-4.mb-lg-0
     
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
@@ -24,7 +24,7 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Políticas y prácticas de Responsabilidad Social Empresarial.
 
-          .col-lg-4.order-1
+          .col-lg-4.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema3/2.png', alt='')
 
@@ -193,7 +193,7 @@
 
     
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -201,14 +201,14 @@
             .col-lg
               p.mb-0 Identificar áreas de mejora y maximizar el impacto positivo.
 
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/14.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Alinear las metas organizacionales con los Objetivos de Desarrollo Sostenible (ODS).
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         .bg-color-3.p-4(data-aos="fade-left").h-100
           .row.align-items-center
             .col-lg-auto
@@ -224,21 +224,21 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/15.png")
             .col-lg-7
               h5 Indicadores Clave de Desempeño (KPI)
               p Métricas específicas para monitorear aspectos como emisiones de carbono, satisfacción laboral y participación comunitaria.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/16.png")
             .col-lg-7
               h5 Estándares internacionales
               p Marcos como GRI (Global Reporting Initiative) guían la elaboración de informes estructurados y comparables.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/17.png")
             .col-lg-7
