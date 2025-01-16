@@ -18,7 +18,7 @@
             h2.mb-4(data-aos="flip-up") Políticas y prácticas de Responsabilidad Social Empresarial
             p.mb-4(data-aos="fade-right") En el documento se destacan las políticas y prácticas de Responsabilidad Social Empresarial (RSE), subrayando su integración con los valores corporativos para promover equidad de género, combatir la pobreza y gestionar responsablemente los recursos naturales.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -142,12 +142,166 @@
         p.mb-5 Para los estudiantes de Seguridad y Salud en el Trabajo, comprender la RSE es crucial, ya que su implementación fomenta la creación de entornos laborales seguros y saludables. Algunas ventajas incluyen:
 
 
+    .bg-full-width.bg-color-7
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6(data-aos="fade-left").order-2
+            h5 Reducción de riesgos
+            ul.lista-ul
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Adopción de políticas laborales justas y seguras, disminuyendo accidentes y enfermedades profesionales.
+            h5 Satisfacción de los empleados
+            ul.lista-ul
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Mejora del bienestar y la motivación de los trabajadores, lo que incrementa la productividad y reduce el ausentismo.
+            h5 Fortalecimiento de la reputación
+            ul.lista-ul
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Las prácticas responsables proyectan una imagen positiva, fortaleciendo la relación con los grupos de interés.
+  
+              
 
+          .col-lg-6(data-aos="zoom-in").order-1
+            figure
+              img(src="@/assets/curso/tema3/10.svg", data-aos="zoom-in").mb-4.mb-lg-0
+    
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema3/19.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 Aplicar estas herramientas permite a los futuros profesionales en SST no solo gestionar riesgos, sino también promover la sostenibilidad y el bienestar en las organizaciones, contribuyendo de manera integral al desarrollo corporativo y social.
 
-    .bg-full-width.border-top.actividad.bg-color-actividad
+    #t_3_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.2] Herramientas y metodologías para implementar la RSE
+
+    .bg-color-5.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/11.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") La evaluación y medición del impacto de la Responsabilidad Social Empresarial (RSE) es esencial para identificar las contribuciones empresariales en los ámbitos social, ambiental y económico. A través del uso de indicadores específicos y metodologías de análisis, las empresas pueden ajustar sus estrategias y demostrar de manera transparente su compromiso con el desarrollo sostenible.
+
+    h2.mb-3(data-aos="fade-right") Importancia de la evaluación en la RSE
+    p.mb-5 Evaluar los efectos de las actividades empresariales permite:
+
+    
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-4
+        .bg-color-3.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/13.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Identificar áreas de mejora y maximizar el impacto positivo.
+
+      .col-lg-4
+        .bg-color-3.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/14.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Alinear las metas organizacionales con los Objetivos de Desarrollo Sostenible (ODS).
+      .col-lg-4
+        .bg-color-3.p-4(data-aos="fade-left").h-100
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/12.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Responder a las expectativas de consumidores, reguladores y otros grupos de interés.
+    
+    h2.mb-3(data-aos="fade-right") Herramientas y metodologías para la medición
+    p.mb-5 Para evaluar el rendimiento en RSE, las empresas pueden emplear diversas herramientas, entre las cuales destacan:
+
+    
+    .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
-        #Actividad                
-          <Actividad :cuestionario="cuestionario"/>
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/15.png")
+            .col-lg-7
+              h5 Indicadores Clave de Desempeño (KPI)
+              p Métricas específicas para monitorear aspectos como emisiones de carbono, satisfacción laboral y participación comunitaria.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/16.png")
+            .col-lg-7
+              h5 Estándares internacionales
+              p Marcos como GRI (Global Reporting Initiative) guían la elaboración de informes estructurados y comparables.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/17.png")
+            .col-lg-7
+              h5 Análisis de impacto social
+              p Evalúa los efectos directos e indirectos de las actividades empresariales en las comunidades mediante datos cualitativos y cuantitativos.
+
+    h2.mb-3(data-aos="fade-right") Desafíos en la evaluación de la RSE
+    p.mb-5 La evaluación de la RSE enfrenta diversos desafíos que complican su implementación y análisis.
+    
+    .bg-full-width.bg-color-7.mb-5
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6(data-aos="fade-left").order-2
+            ul.lista-ul
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Complejidad de los efectos: los impactos sociales y ambientales suelen ser difíciles de cuantificar debido a su naturaleza intangible y múltiples factores implicados.
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right
+                p.mb-0 Falta de estandarización: la ausencia de criterios universales dificulta la comparación entre empresas y sectores.
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right
+                p.mb-0 Recopilación de datos: obtener información precisa y relevante puede ser complicado, especialmente en cadenas de suministro amplias o contextos con poca transparencia.
+
+          .col-lg-6(data-aos="zoom-in").order-1
+            figure
+              img(src="@/assets/curso/tema3/18.svg", data-aos="zoom-in").mb-4.mb-lg-0
+    
+    .titulo-figura.mb-4
+      h5 Tabla 1. 
+      span Propuestas para mejorar la evaluación de la RSE
+    .tabla-a.mb-5
+      table
+        thead
+          tr
+            th.bg-color-3(width='35%') Acción
+            th.bg-color-3 Detalle
+          
+
+        tbody
+          tr
+            td Desarrollar indicadores estandarizados
+            td Crear métricas comunes facilita la evaluación y comparación del rendimiento en RSE entre sectores.
+            
+          tr
+            td Capacitación en metodologías
+            td Formar a profesionales en herramientas y técnicas de medición fortalece la gestión de impactos.
+          tr
+            td Fomentar transparencia
+            td Promover divulgaciones detalladas y responsables mejora la comprensión de los esfuerzos empresariales.
+            
+    
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/curso/tema3/20.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 La evaluación del impacto de la RSE es clave para coordinar estrategias empresariales con el desarrollo sostenible y las expectativas sociales. Establecer indicadores adecuados y utilizar metodologías robustas no solo fortalece la transparencia y rendición de cuentas, sino que también refuerza el compromiso empresarial con la responsabilidad social. Esto permite a las empresas maximizar su impacto positivo y consolidar su reputación en el mercado.
+
+
+
+
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -158,15 +312,23 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://fastercapital.com/es/contenido/Impacto-de-la-RSE--como-evaluar-y-comunicar-el-impacto-y-los-resultados-de-la-RSE.html" target="_blank" rel="noopener noreferrer") Impacto de la RSE: cómo evaluar y comunicar el impacto y los resultados de la RSE. (2023). FasterCapital. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://estrategiadigital.org/responsabilidad-social-corporativa/como-medir-el-impacto-de-las-iniciativas-de-responsabilidad-social-corporativa/" target="_blank" rel="noopener noreferrer") Cómo medir el impacto de las iniciativas de responsabilidad social corporativa. (2022). Estrategia Digital. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://madrid.impacthub.net/wp-content/uploads/2017/11/Guia-medicion-de-impacto-esp-1.pdf" target="_blank" rel="noopener noreferrer") Manual de medición de impacto social. (2017). Impact Hub Madrid. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") ChatGPT
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer") Copilot
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=CEy_5Xmf03c" target="_blank" rel="noopener noreferrer") Canal de YouTube de la Universidad de los Andes. (2020, 15 de marzo). Gestión Estratégica de la Responsabilidad Social Empresarial.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -175,183 +337,8 @@
 </template>
 
 <script>
-import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema3',
-  components: {
-    Actividad,
-  },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto: 'En un foro comunitario, es importante:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
-  },
+  name: 'Tema2',
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -360,7 +347,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.bg-color-actividad
-  background-color: #EBF1F5
-</style>
+<style lang="sass"></style>

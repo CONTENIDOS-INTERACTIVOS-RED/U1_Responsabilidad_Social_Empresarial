@@ -6,14 +6,22 @@
     p.mb-5 La Responsabilidad Social Empresarial (RSE) es un enfoque estratégico que invita a las empresas a integrar, de manera voluntaria, consideraciones sociales, ambientales y económicas en sus operaciones diarias, así como en sus relaciones con las partes interesadas. Su desarrollo se remonta a mediados del siglo XX, cuando comenzó a cuestionarse el rol exclusivo de las empresas como generadoras de beneficios económicos, planteándose nuevas responsabilidades relacionadas con su impacto en la sociedad y el medio ambiente (Lozano, 2019).
 
 
-    .bg-full-width.bg-fondo-3.mb-5
+    .bg-full-width-2.bg-fondo-3.mb-5
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center
           .col-lg-6(data-aos="fade-left").order-2
             h5 Principios Clave de la RSE:
-            p.mb-1 Transparencia en las acciones empresariales.
-            p.mb-1 Prácticas basadas en la ética y responsabilidad.
-            p.mb-1 Respeto y promoción de los derechos humanos.
+            ul.lista-ul
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Transparencia en las acciones empresariales.
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Prácticas basadas en la ética y responsabilidad.
+              li.mb-2.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 Respeto y promoción de los derechos humanos.
+  
 
           .col-lg-6(data-aos="zoom-in").order-1
             figure
@@ -301,15 +309,23 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://basadoenhechosreales.com.ar/responsabilidad-social-hechos-historicos/" target="_blank" rel="noopener noreferrer") Basado en Hechos Reales. (n.d.). Responsabilidad social: Hechos históricos. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://apambu.com/apambublog/5-dimensiones-responsabilidad-social-corporativa/" target="_blank" rel="noopener noreferrer") Apambu. (s.f.). 5 dimensiones de la responsabilidad social corporativa.
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://fastercapital.com/es/contenido/Principios-y-valores-eticos--Responsabilidad-Social-Corporativa--Integrando-la-etica-en-los-modelos-de-negocio.html" target="_blank" rel="noopener noreferrer") FasterCapital. (2023, junio). Principios y valores éticos: Responsabilidad Social Corporativa. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.eluniversal.com.co/especial/responsabilidad-social/2022/03/10/10-principios-eticos-de-las-empresas-socialmente-responsables/" target="_blank" rel="noopener noreferrer") El Universal. (2022, 10 de marzo). 10 principios éticos de las empresas socialmente responsables. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") ChatGPT
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer") Copilot
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

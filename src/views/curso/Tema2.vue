@@ -152,15 +152,20 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://cards.algoreducation.com/es/content/e7YXnByE/impacto-globalizacion-etica-responsabilidad" target="_blank" rel="noopener noreferrer") Algor Education. (s.f.). La globalización y su impacto en la ética y la responsabilidad social corporativa.
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elpais.com/mexico/branded/2024-10-23/pepsico-una-vision-con-adn-femenino.html" target="_blank" rel="noopener noreferrer") El País. (2024, 23 de octubre). PepsiCo: una visión con ADN femenino. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") ChatGPT 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer") Copilot
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=E_8FcFHsotQ" target="_blank" rel="noopener noreferrer") Investigación en RSE. (2020, septiembre 12). La evolución de la investigación en responsabilidad social empresarial. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
