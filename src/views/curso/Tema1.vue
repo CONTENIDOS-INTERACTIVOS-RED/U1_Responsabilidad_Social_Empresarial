@@ -1,8 +1,25 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Conceptos Fundamentales de la RSE'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+    p.mb-5 La Responsabilidad Social Empresarial (RSE) es un enfoque estratégico que invita a las empresas a integrar, de manera voluntaria, consideraciones sociales, ambientales y económicas en sus operaciones diarias, así como en sus relaciones con las partes interesadas. Su desarrollo se remonta a mediados del siglo XX, cuando comenzó a cuestionarse el rol exclusivo de las empresas como generadoras de beneficios económicos, planteándose nuevas responsabilidades relacionadas con su impacto en la sociedad y el medio ambiente (Lozano, 2019).
+
+
+    .bg-full-width.bg-fondo-3.mb-5
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-center
+          .col-lg-6(data-aos="fade-left").order-2
+            h5 Principios Clave de la RSE:
+            p.mb-1 Transparencia en las acciones empresariales.
+            p.mb-1 Prácticas basadas en la ética y responsabilidad.
+            p.mb-1 Respeto y promoción de los derechos humanos.
+
+          .col-lg-6(data-aos="zoom-in").order-1
+            figure
+              img(src="@/assets/curso/tema1/1.svg", data-aos="zoom-in").mb-4.mb-lg-0
+
+    p.mb-5 La RSE, además de promover valores éticos, busca crear un desarrollo sostenible que equilibre el crecimiento económico, la protección ambiental y el bienestar social. Implementar prácticas de RSE, como las sugeridas en la norma ISO 26000, permite a las organizaciones fortalecer su reputación, optimizar relaciones con sus stakeholders y generar un impacto positivo en las comunidades donde operan.
     #t_1_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.1] Subtítulo tema
 
