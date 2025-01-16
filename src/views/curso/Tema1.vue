@@ -127,7 +127,7 @@
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Económica
             p Asegura la viabilidad financiera y la creación de valor para accionistas y partes interesadas, mientras promueve una gestión responsable y eficiente de los recursos.
-            p <em>Ejemplo</em>. Inversión en tecnologías sostenibles para optimizar procesos productivos, reduciendo costos e incrementando la calidad.
+            p <b>Ejemplo</b>. Inversión en tecnologías sostenibles para optimizar procesos productivos, reduciendo costos e incrementando la calidad.
         
           .col-md-6.col-lg-5.col-xl-4.order-1
             figure(data-aos="zoom-in")
@@ -137,7 +137,7 @@
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Social
             p Fomenta el bienestar y la equidad entre empleados, comunidades y sociedad en general, promoviendo derechos humanos y responsabilidad social.
-            p <em>Ejemplo</em>. Implementar programas de bienestar laboral y colaborar en proyectos educativos para mejorar la calidad de vida local.
+            p <b>Ejemplo</b>. Implementar programas de bienestar laboral y colaborar en proyectos educativos para mejorar la calidad de vida local.
         
           .col-md-6.col-lg-5.col-xl-4.order-1
             figure(data-aos="zoom-in")
@@ -148,7 +148,7 @@
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Ambiental
             p Mitiga el impacto ecológico de las operaciones empresariales mediante la adopción de prácticas sostenibles. 
-            p <em>Ejemplo</em>. Uso de energía renovable en las operaciones y promoción del reciclaje en todas las áreas de la empresa.
+            p <b>Ejemplo</b>. Uso de energía renovable en las operaciones y promoción del reciclaje en todas las áreas de la empresa.
         
           .col-md-6.col-lg-5.col-xl-4.order-1
             figure(data-aos="zoom-in")
