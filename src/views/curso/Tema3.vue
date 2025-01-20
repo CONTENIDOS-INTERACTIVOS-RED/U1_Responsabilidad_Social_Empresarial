@@ -18,7 +18,7 @@
             h2.mb-4(data-aos="flip-up") Políticas y prácticas de Responsabilidad Social Empresarial
             p.mb-4(data-aos="fade-right") En el documento se destacan las políticas y prácticas de Responsabilidad Social Empresarial (RSE), subrayando su integración con los valores corporativos para promover equidad de género, combatir la pobreza y gestionar responsablemente los recursos naturales.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

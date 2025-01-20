@@ -120,7 +120,7 @@
             h2.mb-4(data-aos="flip-up") Grupos de interés en la responsabilidad social empresarial
             p.mb-4(data-aos="fade-right") En el documento se explora cómo la responsabilidad social empresarial (RSE) interactúa con distintos grupos de interés clave, como empleados, consumidores, comunidades y el medio ambiente.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -301,6 +301,27 @@ export default {
               {
                 id: 'd',
                 texto: 'Encuestas de satisfacción al cliente',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              'Implementar prácticas responsables puede fortalecer la relación con los grupos de interés.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
